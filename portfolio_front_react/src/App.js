@@ -1,4 +1,8 @@
 import React from 'react'
+import {About,Footer,Header,Skills,Work,Testimonial} from './container'
+
+import {Navbar} from './components'
+
 
 function App() {
 
@@ -8,10 +12,16 @@ function App() {
   return (
 
 
-    <h1>App
+ <div className='app'>
+  <Navbar/>
+  <Header/>
+  <About/>
+  <Work/>
+  <Skills/>
+  <Testimonial/>
+  <Footer/>
 
-        
-    </h1>
+ </div>
   
   
   
